@@ -24,6 +24,9 @@ public class M3U8Reader(Stream stream) : IEnumerable<M3U8Line>
 	IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 }
 
+/// <summary>
+///		Represents a line in a M3U8 file. The line can be empty, a source line or an extension line.
+/// </summary>
 public readonly struct M3U8Line(string line)
 {
 	public static readonly M3U8Line Empty = new(string.Empty);
@@ -65,6 +68,9 @@ public readonly ref struct M3U8Extension(ReadOnlySpan<char> line)
 	public ExtensionValues Values => new(input.Slice(ExtensionName.Length + 1));
 }
 
+/// <summary>
+///		If the extension has values, you can get access to them via this struct.
+/// </summary>
 public readonly ref struct ExtensionValues(ReadOnlySpan<char> line)
 {
 	public ReadOnlySpan<char> Value { get; } = line[^1] == ',' ? line[..^1] : line;
