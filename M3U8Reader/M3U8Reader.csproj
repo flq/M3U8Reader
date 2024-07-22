@@ -11,7 +11,7 @@
         <Copyright>(c) Frank Quednau 2024</Copyright>
         <PackageTags>m3u8,playlist</PackageTags>
         <PackageProjectUrl>https://github.com/flq/M3U8Reader</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/flq/M3U8Reader/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/flq/M3U8Reader</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
