@@ -10,6 +10,18 @@
         <Description>The M3U8Reader gives you a lightweight low allocation abstraction to read through a M3U8 file </Description>
         <Copyright>(c) Frank Quednau 2024</Copyright>
         <PackageTags>m3u8,playlist</PackageTags>
+        <PackageProjectUrl>https://github.com/flq/M3U8Reader</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/flq/M3U8Reader/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/flq/M3U8Reader</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <Target Name="CopyFilesToSolutionDirectory" AfterTargets="Build">
+        <Copy SourceFiles="readme.md" DestinationFolder="$(SolutionDir)" />
+    </Target>
 </Project>
