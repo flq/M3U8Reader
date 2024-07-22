@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>M3U8Reader</Title>
+        <Authors>Frank Quednau</Authors>
+        <Description>The M3U8Reader gives you a lightweight low allocation abstraction to read through a M3U8 file </Description>
+        <Copyright>(c) Frank Quednau 2024</Copyright>
+        <PackageTags>m3u8,playlist</PackageTags>
+    </PropertyGroup>
+
+</Project>

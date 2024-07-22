@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3U8Reader", "M3U8Reader\M3U8Reader.csproj", "{D181206B-0E2C-447F-A6E2-C701AFD8F73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3U8Reader.Tests", "M3U8Reader.Tests\M3U8Reader.Tests.csproj", "{6354B1A2-5826-4555-917F-A300B1552528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{E9DA0E34-B637-4F88-B402-78CF5868F1A7}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D181206B-0E2C-447F-A6E2-C701AFD8F73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D181206B-0E2C-447F-A6E2-C701AFD8F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D181206B-0E2C-447F-A6E2-C701AFD8F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D181206B-0E2C-447F-A6E2-C701AFD8F73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6354B1A2-5826-4555-917F-A300B1552528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6354B1A2-5826-4555-917F-A300B1552528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6354B1A2-5826-4555-917F-A300B1552528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6354B1A2-5826-4555-917F-A300B1552528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
